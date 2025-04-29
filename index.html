@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karina Malviya | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- main -->
+  <section class="h-screen flex flex-col items-center justify-center bg-gray-100 text-center">
+    <img src="karina.jpg" alt="Profile" class="w-32 h-32 rounded-full mb-6 shadow-lg object-cover">
+    <h1 class="text-4xl md:text-6xl font-bold">Hi, I'm Karina Malviya</h1>
+    <p class="mt-4 text-lg md:text-xl">Frontend Developer</p>
+    <div class="mt-6 flex justify-center gap-4">
+      <a href="https://github.com/karinamalviya507" target="_blank" class="text-gray-700 hover:text-black icon-hover">
+        <i data-feather="github" class="w-6 h-6"></i>
+      </a>
+      <a href="https://linkedin.com/in/Karina Malviya" target="_blank" class="text-blue-700 hover:text-blue-900 icon-hover">
+        <i data-feather="linkedin" class="w-6 h-6"></i>
+      </a>
+    </div>
+    <a href="#contact" class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Contact Me</a>
+  </section>
+
+  <!-- About -->
+  <section class="py-16 px-6 bg-white fade-in" id="about">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <img src="karina.jpg" alt="About Image" class="w-full md:w-1/2 rounded-lg shadow-md">
+      <div>
+        <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+        <p class="text-lg leading-relaxed">
+          I'm a passionate web developer with experience in creating responsive and interactive websites. I enjoy solving problems and bringing ideas to life in the browser.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="py-16 px-6 bg-gray-100 fade-in" id="Education">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-8 text-center">Education</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          
+          <h3 class="text-xl font-semibold mb-2">University</h3>
+          <p class="mb-4">Rajarajeshwari College Of Engineering Banglore<br>
+                           Computer Science</p>
+          <a href="#" class="text-blue-600 hover:underline">View college</a>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          
+          <h3 class="text-xl font-semibold mb-2">Pre-university</h3>
+          <p class="mb-4">St Joseph's Girls PU College Chikkamagaluru</p>
+          <a href="#" class="text-blue-600 hover:underline">View college</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Skills -->
+    <section class="py-16 px-6 bg-white fade-in" id="skills">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-4xl font-semibold text-center mb-8">Skills</h2>
+        <div class="grid grid-cols-3 gap-8 text-center">
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML icon" class="mx-auto mb-2">
+                <p>HTML</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS icon" class="mx-auto mb-2">
+                <p>CSS</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript icon" class="mx-auto mb-2">
+                <p>JavaScript</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C Programming icon" class="mx-auto mb-2">
+                <p>C Programming</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/sql.png" alt="SQL icon" class="mx-auto mb-2">
+                <p>SQL</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java icon" class="mx-auto mb-2">
+                <p>Java</p>
+            </div>
+        </div>
+        </div>
+</section>
+
+  <!-- Contact -->
+  <section class="py-16 px-6 bg-white fade-in" id="contact">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+      <form action="#" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your Name" class="w-full border p-3 rounded" required />
+        <input type="email" name="email" placeholder="Your Email" class="w-full border p-3 rounded" required />
+        <textarea name="message" rows="5" placeholder="Your Message" class="w-full border p-3 rounded" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center bg-gray-100">
+    <p>&copy; 2025 Karina Malviya. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
